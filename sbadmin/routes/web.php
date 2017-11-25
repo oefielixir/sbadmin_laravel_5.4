@@ -76,3 +76,5 @@ Route::get('/documentation', function()
 {
 	return view('documentation');
 });
+
+Route::get('/reg', 'CreateUser@create');
